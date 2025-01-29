@@ -1,0 +1,8 @@
+Metadata-Version: 2.2
+Name: merkletree_ethadd
+Version: 0.1.0
+Summary: A Python package for constructing Merkle Trees from ethereum addresses
+Author-email: Alexandr Medkov <medkovsasha@gmail.com>
+License-File: LICENSE
+Requires-Dist: pycryptodome
+Requires-Dist: eth-abi

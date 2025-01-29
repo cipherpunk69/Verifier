@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "merkletree_ethadd"
+version = "0.1.0"
+description = "A Python package for constructing Merkle Trees from ethereum addresses"
+authors = [{ name = "Alexandr Medkov", email = "medkovsasha@gmail.com" }]
+dependencies = [
+    "pycryptodome",
+    "eth-abi"
+]
